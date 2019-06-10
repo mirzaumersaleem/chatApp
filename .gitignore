@@ -22,7 +22,7 @@ client/yarn-error.log*
 
 
 # server
-server/node_modules
+node_modules
 
 
 
