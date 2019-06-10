@@ -1,5 +1,5 @@
 const mongo = require('mongodb').MongoClient;
-const client = require('socket.io').listen(3001).sockets;
+const client = require('socket.io').listen(process.env.PORT || 3000).sockets;
 
 // Connect to mongo
 mongo.connect('mongodb://mirza:nyQzoq-vusto1-bohvup@cluster0-shard-00-00-kpjoe.mongodb.net:27017,cluster0-shard-00-01-kpjoe.mongodb.net:27017,cluster0-shard-00-02-kpjoe.mongodb.net:27017/test?ssl=true&replicaSet=Cluster0-shard-0&authSource=admin&retryWrites=true&w=majority', function(err, db){
