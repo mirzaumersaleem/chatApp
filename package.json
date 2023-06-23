@@ -6,7 +6,7 @@
     "start": "PORT=3001 node app.js"
   },
   "dependencies": {
-    "mongodb": "^3.1.13",
+    "mongodb": "^3.7.4",
     "socket.io": "^2.0.3"
   }
 }
